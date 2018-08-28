@@ -1,0 +1,3 @@
+{% for x in title %}
+<p>{{x}}<a href={{ url_for('file', file_id=x.id)}}>link</a> </p>
+{% endfor %}
